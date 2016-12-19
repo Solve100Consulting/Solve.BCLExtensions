@@ -21,21 +21,20 @@
   </PropertyGroup>
   <Import Project="$(NuProjPath)\NuProj.props" Condition="Exists('$(NuProjPath)\NuProj.props')" />
   <PropertyGroup Label="Configuration">
-    <Id>Solve.BCLExtensions.NuGet</Id>
-    <Version>1.0.0</Version>
-    <Title>Solve.BCLExtensions.NuGet</Title>
-    <Authors>ckruger</Authors>
-    <Owners>ckruger</Owners>
-    <Summary>Solve.BCLExtensions.NuGet</Summary>
-    <Description>Solve.BCLExtensions.NuGet</Description>
+    <Id>Solve.BCLExtensions</Id>
+    <Version>0.0.1</Version>
+    <Title>Solve.BCLExtensions</Title>
+    <Authors>Solve</Authors>
+    <Owners>Solve</Owners>
+    <Summary>Solve.BCLExtensions</Summary>
+    <Description>A collection of helpers to common needs on BCL types (ex. "42".ToInt32())</Description>
     <ReleaseNotes>
     </ReleaseNotes>
-    <ProjectUrl>
-    </ProjectUrl>
-    <LicenseUrl>
-    </LicenseUrl>
-    <Copyright>Copyright © ckruger</Copyright>
-    <Tags>Solve.BCLExtensions.NuGet</Tags>
+    <ProjectUrl>https://github.com/Solve100Consulting/Solve.BCLExtensions</ProjectUrl>
+    <LicenseUrl>https://github.com/Solve100Consulting/Solve.BCLExtensions/blob/master/LICENSE</LicenseUrl>
+    <Copyright>Copyright © Solve</Copyright>
+    <Tags>
+    </Tags>
   </PropertyGroup>
   <Import Project="$(NuProjPath)\NuProj.targets" />
 </Project>
